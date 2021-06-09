@@ -1,0 +1,242 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/*===== CLASS CSS ===== */
+.section-title{
+  position: relative;
+  font-size: 3rem;
+  color: #a70707;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*===== NAV =====*/
+.nav_list{
+  text-align: center;
+}
+.nav__item{
+  margin-bottom: 1rem;
+  border: 0.4vh solid #0E2431;
+  background-color: #fff;
+  padding: 1vh 1vw;
+  width: 12rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav__item:hover{
+  position: relative;
+  background-color: black;
+  color: #fff;
+}
+
+.nav__list a{
+  color: black;
+}
+
+.nav__item:hover a{
+  position: relative;
+  background-color: black;
+  color: #fff;
+}
+
+/*===== HOME =====*/
+.home__container{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  row-gap: 2rem;
+  text-align: center;
+}
+
+.home__title{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: black;
+}
+.home__title-color{
+  color: #a70707;
+  font-weight: bold;
+}
+.home__social{
+  margin: 0 auto;
+}
+.home__social-icon{
+  width: max-content;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: #0E2431;
+}
+.home__social-icon:hover{
+  color: #a70707;
+}
+
+
+/* ===== ABOUT =====*/
+#about{
+  background: linear-gradient(to bottom right, #090a04 20%, #646363 100%);
+}
+.about__container{
+  padding:2rem 2rem;
+  text-align: center;
+}
+.about__subtitle{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.about__text{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+
+/* ==== PORTFOLIO ==== */
+.portfolio{
+  background: linear-gradient(to bottom right, #020008 20%, #04045F 100%);
+}
+.portfolio__container{
+  padding-top: 4rem;
+  text-align: center;
+}
+.portfolio__background-image{
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  margin-bottom: 2rem;
+  box-shadow: 01.rem 0.2rem 2rem 0 black;
+}
+.portfolio__content{  
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin: -15rem auto 10rem;
+}
+.portfolio__text{
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  border: 0.1 rem solid linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
+  box-shadow: 0.1rem 0.2rem 2rem 0 black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background: linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
+  padding:1rem;
+  margin: -9rem auto 10rem;
+  color:#FFF;
+
+}
+.portfolio__button{
+  border: 0.1 rem solid #a70707;
+  box-shadow: 0.1rem 0.2rem 2rem 0 black;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  background-color: #a70707;
+  padding:1vh 1.2vw;
+  width: 12rem;
+  margin-left: 2vw;
+}
+.portfolio__button a{
+  text-decoration: none;
+  color: white;
+}
+
+.portfolio__button:hover{
+  background-color: #FFF;
+  color: #000;
+  border: none;
+}
+
+.portfolio__button:hover a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* ===== EDUCATION =====*/
+.edu__container{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.edu__subtitle{
+  margin-bottom: 1rem;
+}
+
+/* ===== WORK =====*/
+.work__container{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.work__subtitle{
+  margin-bottom: 1rem;
+}
+
+/* ====Contact ====*/
+.contact{
+  padding-top: 3rem;
+  color: #fff;
+  padding-bottom: 3rem;
+  text-align: center;
+  background: linear-gradient(to bottom right, #090a04 30%, #ffffff 100%);
+}
+
+.para{
+  padding-top: 3rem;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+.contact__container{
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.contact__button{
+  margin-top: 2rem;
+}
+
+/* ===== FOOTER =====*/
+.footer{
+  background-color: #0E2431;
+  color: #fff;
+  text-align: center;
+  font-weight: 1rem;
+  padding: 1rem 0;
+}
+.footer__title{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.footer__social{
+  margin-bottom: 1rem;
+}
+.footer__icon{
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 1rem;
+}
