@@ -111,7 +111,7 @@ a{
 
 /* ==== PORTFOLIO ==== */
 .portfolio{
-  background: linear-gradient(to bottom right, #020008 20%, #f0f0f3 100%);
+  background: linear-gradient(to bottom right, #f32b2b 20%, #f0f0f3 100%);
 }
 .portfolio__container{
   padding-top: 4rem;
@@ -136,13 +136,13 @@ a{
   position: absolute;
   text-align: center;
   width: 100%;
-  border: 0.1 rem solid linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
+  border: 0.1 rem solid linear-gradient(to bottom right, #2e0c94 20%, #04045F 100%);
   box-shadow: 0.1rem 0.2rem 2rem 0 black;
   border-radius: 5px;
   text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
-  background: linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
+  background: linear-gradient(to bottom right, #2e0c94 20%, #04045F 100%);
   padding:1rem;
   margin: -10rem auto 10rem;
   color:#FFF;
