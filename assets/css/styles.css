@@ -110,7 +110,7 @@ a{
 
 /* ==== PORTFOLIO ==== */
 .portfolio{
-  background: linear-gradient(to bottom right, #020008 20%, #04045F 100%);
+  background: linear-gradient(to bottom right, #020008 20%, #f0f0f3 100%);
 }
 .portfolio__container{
   padding-top: 4rem;
