@@ -111,7 +111,7 @@ a{
 
 /* ==== PORTFOLIO ==== */
 .portfolio{
-  background-color: #0e0e0f;
+  background: #000;
 }
 .portfolio__container{
   padding-top: 4rem;
@@ -123,7 +123,7 @@ a{
   height: 36rem;
   opacity: 0.9;
   margin-bottom: 4rem;
-  box-shadow: 01.rem 0.2rem 2rem 0 black;
+  box-shadow: 01.rem 0.2rem 2rem 0 #fff;
 }
 .portfolio__content{  
   left: 0;
