@@ -70,12 +70,14 @@ a{
 }
 
 .home__title{
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin-bottom: 3rem;
   color: black;
 }
 .home__title-color{
-  color: #a70707;
+  font-size: 2.5rem;
+  line-height: 8vh;
+  color: #910606;
   font-weight: bold;
 }
 .home__social{
@@ -84,11 +86,11 @@ a{
 .home__social-icon{
   width: max-content;
   margin-bottom: 0.5rem;
-  font-size: 2.5rem;
-  color: #0E2431;
+  font-size: 2.8rem;
+  color: #910606;
 }
 .home__social-icon:hover{
-  color: #a70707;
+  color: #0f0872;
 }
 
 
@@ -199,6 +201,7 @@ a{
   text-align: center;
 }
 .work__subtitle{
+  color: #02094e;
   margin-bottom: 1rem;
 }
 
