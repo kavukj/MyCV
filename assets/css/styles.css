@@ -59,12 +59,17 @@ a{
 }
 
 /*===== HOME =====*/
+
 .home__container{
+  background: url("../img/home.jpg");
+  background-position: center;
+  background-size: cover;
   padding-top: 2rem;
   padding-bottom: 3rem;
   row-gap: 2rem;
   text-align: center;
 }
+
 
 .home__title{
   font-size: 3rem;
