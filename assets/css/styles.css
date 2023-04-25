@@ -32,6 +32,7 @@ a{
   text-align: center;
 }
 .nav__item{
+  border-radius: 10px;
   margin-bottom: 1rem;
   border: 0.4vh solid #0E2431;
   background-color: #fff;
@@ -67,8 +68,14 @@ a{
 
 .home__title{
   font-size: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   color: black;
+}
+.home__subtitle{
+  font-size: 17px;
+  margin-bottom: 3rem;
+  color: #6055b5;
+  font-weight: 500;
 }
 .home__title-color{
   color: #a70707;
@@ -112,6 +119,9 @@ a{
 .portfolio{
   background: linear-gradient(to bottom right, #020008 20%, #04045F 100%);
 }
+.portfolio__item{
+  height: 320px;
+}
 .portfolio__container{
   padding-top: 4rem;
   text-align: center;
@@ -119,34 +129,33 @@ a{
 .portfolio__background-image{
   position: relative;
   width: 40rem;
-  height: 40rem;
+  height: 30rem !important;
   margin-bottom: 2rem;
+  object-fit: cover;
   box-shadow: 01.rem 0.2rem 2rem 0 black;
 }
 .portfolio__content{  
-  left: 0;
+  right: 1rem;
   position: absolute;
-  text-align: center;
   width: 100%;
-  margin: -15rem auto 10rem;
+  margin: -2rem auto;
 }
 .portfolio__text{
-  left: 0;
-  position: absolute;
+  position: relative;
+  z-index: 100;
   text-align: center;
-  width: 100%;
-  border: 0.1 rem solid linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
-  box-shadow: 0.1rem 0.2rem 2rem 0 black;
+  width: 550px;
   border-radius: 5px;
-  text-align: center;
   font-size: 1.6rem;
   font-weight: bold;
-  background: linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
   padding:1rem;
-  margin: -9rem auto 10rem;
+  margin: -9rem auto;
   color:#FFF;
-
+  background: linear-gradient(to bottom right, #92d1ec 10%, #0a0a93 100%);
+  border: 0.1 rem solid linear-gradient(to bottom right, #0b0225 20%, #04045F 100%);
+  box-shadow: 0.1rem 0.2rem 2rem 0 black;
 }
+
 .portfolio__button{
   border: 0.1 rem solid #a70707;
   box-shadow: 0.1rem 0.2rem 2rem 0 black;
@@ -207,9 +216,9 @@ a{
 }
 
 .para{
-  padding-top: 3rem;
+  padding-top: 1rem;
   font-size: 1.8rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .contact__container{
