@@ -105,24 +105,24 @@ a{
   background: linear-gradient(to bottom right, #090a04 20%, #646363 100%);
 }
 .about__container{
-  padding:2rem 2rem;
+  padding:2rem 12rem;
   text-align: center;
 }
 .about__subtitle{
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
   color: #fff;
 }
 .about__text{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #fff;
 }
 
 
 /* ==== PORTFOLIO ==== */
 .portfolio{
-  background: linear-gradient(to bottom right, #020008 20%, #04045F 100%);
+  background: linear-gradient(to bottom right, #051b7a 20%, #010113 60%);
 }
 .portfolio__item{
   height: 320px;
